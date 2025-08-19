@@ -6,6 +6,7 @@
 3. `setup .env, adjust to your db connection`
 4. `go mod tidy`
 5. `go run ./cmd/server`
+6. `go test ./... -v` #run unit test
 
 
 ## Example Request
