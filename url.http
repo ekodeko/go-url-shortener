@@ -1,0 +1,32 @@
+### Get By Code
+GET http://localhost:8080/api/v1/urls/testis
+Accept: application/json
+Content-Type: application/json
+
+### Create URL
+POST  http://localhost:8080/api/v1/urls
+Accept: application/json
+Content-Type: application/json
+
+{
+    "original_url": "http://testis.com",
+    "custom_alias": "testis",
+    "ttl_hours": 1
+}
+
+
+### Delete By Code
+DELETE  http://localhost:8080/api/v1/urls/testing
+Accept: application/json
+Content-Type: application/json
+
+
+### Click
+GET http://localhost:8080/testis
+Accept: application/json
+Content-Type: application/json
+
+### Healthcheck
+GET http://localhost:8080/health
+Accept: application/json
+Content-Type: application/json
